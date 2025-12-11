@@ -555,4 +555,13 @@ footer {
     .close {
         right: 15px;
     }
+   /* Optional: Basic styling to make the icons look better */
+        .social-link {
+            text-decoration: none; /* Remove underline from links */
+            margin-right: 15px;
+            font-size: 24px; /* Adjust size of icons */
+        }
+        .social-link:hover {
+            opacity: 0.7; /* Dim icons slightly on hover */
+        }
 }
